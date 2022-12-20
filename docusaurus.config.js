@@ -15,7 +15,8 @@ const config = {
   favicon: 'img/Oppo2.png',
   organizationName: 'OppoNoppo', // Usually your GitHub org/user name.
   projectName: 'opponoppo.github.io', // Usually your repo name.
-
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -33,7 +34,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/OppoNoppo/op-docs/tree/main',
           showLastUpdateTime: true,
-          showLastUpdateAuthor: true,
+          showLastUpdateAuthor: false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
