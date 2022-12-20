@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkoppo_docs_ts=self.webpackChunkoppo_docs_ts||[]).push([[237],{9754:(e,s,t)=>{t.r(s),t.d(s,{default:()=>p});var o=t(7294),c=t(6550);function p(){return o.createElement(c.l_,{to:"/docs"})}}}]);
