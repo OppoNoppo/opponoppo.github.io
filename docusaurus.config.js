@@ -32,7 +32,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/OppoNoppo/op-docs/tree/main',
+          editUrl: 'https://github.com/OppoNoppo/opponoppo.github.io/tree/main',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
         },
