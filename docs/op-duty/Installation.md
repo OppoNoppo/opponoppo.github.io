@@ -2,6 +2,7 @@
 title: Getting Started
 sidebar_position: 0
 description: How to install on server
+toc_min_heading_level: 2
 ---
 
 :::danger

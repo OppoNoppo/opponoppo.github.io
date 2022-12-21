@@ -1,5 +1,6 @@
 ---
 title: updateLock
+toc_min_heading_level: 2
 ---
 
 import Tabs from '@theme/Tabs';
@@ -44,7 +45,7 @@ end
 
 
 
-# Example
+## Example
 This time the callback is used when a vehicle being locked, in this specific example it unlocks the plate
 ```lua title='client.lua' {2-12} showLineNumbers
 if isLocked then

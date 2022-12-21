@@ -1,5 +1,6 @@
 ---
 title: isOwner
+toc_min_heading_level: 2
 ---
 
 import Tabs from '@theme/Tabs';
@@ -42,7 +43,7 @@ end
 
 
 
-# Example
+## Example
 This time the callback is used in the function giveKeys in `op-vehlock` to verify whether the target (also the player in this case) is the owner of the vehicle, in this example it is simply used to change notification.
 ```lua title='client.lua' {2-8} showLineNumbers
 if GetPlayerServerId(PlayerId()) == target then

@@ -2,6 +2,7 @@
 title: Configuration
 sidebar_position: 1
 description: Configure the script
+toc_min_heading_level: 2
 ---
 
 * `fullFunctionality` - Either use script as handler or fully functioning.

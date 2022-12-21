@@ -2,6 +2,7 @@
 title: Configuration
 sidebar_position: 1
 description: Configure the script
+toc_min_heading_level: 2
 ---
 
 * id: `string` / `integer` -- any of them is possible as long as there is no duplicate id.

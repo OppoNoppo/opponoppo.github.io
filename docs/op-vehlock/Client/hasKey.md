@@ -1,5 +1,6 @@
 ---
 title: hasKey
+toc_min_heading_level: 2
 ---
 
 import Tabs from '@theme/Tabs';

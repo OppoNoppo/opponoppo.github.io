@@ -1,5 +1,6 @@
 ---
 title: giveKeys
+toc_min_heading_level: 2
 ---
 
 import Tabs from '@theme/Tabs';
@@ -44,7 +45,7 @@ end
 
 
 
-# Example
+## Example
 This time the callback is used when a vehicle is made e.g. when spawning a police vehicle. It will give the key of that vehicle to the player executing the code.
 ```lua title='client.lua' {5-11} showLineNumbers
 local function SpawnVehicle(x,y,z,h,car)

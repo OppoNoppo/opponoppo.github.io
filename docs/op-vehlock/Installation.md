@@ -2,6 +2,7 @@
 title: Getting Started
 sidebar_position: 0
 description: How to install on server
+toc_min_heading_level: 2
 ---
 
 op-vehlock is an resource focussed on enhancing the vehicle locking, it uses an database to acomplisch this.
