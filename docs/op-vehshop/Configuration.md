@@ -16,9 +16,9 @@ toc_min_heading_level: 2
 :::caution
 Not all keybinds can be used, here is a list of usable keybindings:
 <pre>
-ESC     F1      F2      F3              F5      F6      F7      F8      F9      F10 <br />
-~       1       2       3        4      5       6       7       8       9       -       =       BACKSPACE <br />
-TAB     Q       W       E        R      T       Y       U       P       [       ]       ENTER <br />
+ESC     F1      F2      F3              F5      F6      F7      F8      F9      F10<br />
+~       1       2       3        4      5       6       7       8       9       -       =       BACKSPACE<br />
+TAB     Q       W       E        R      T       Y       U       P       [       ]       ENTER<br />
 CAPS    A       S       D        F      G       H       K       L<br />
 LEFTSHIFT       Z       X        C      V       B       N       M       ,       .       TOP<br />
 LEFTCTRL        LEFTALT                 SPACE                   RIGHTCTRL       LEFT    DOWN    RIGHT<br />
