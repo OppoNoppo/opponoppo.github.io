@@ -7,7 +7,7 @@ position: 1
 ### op-v-addcar
 This command can be used to add the car you are currently sitting in into the database. The exact mods applied on the vehicle will also be how it gets shown and sold.
 
-:::info
+:::success
 op-v-addcar `[label]` `[price]` `[brand]` `[class]` `[category]` `[type]` `[instore]`
 :::
 * `label` - The name that gets shown, do use a space inside the label use `_` instead.
@@ -21,7 +21,7 @@ op-v-addcar `[label]` `[price]` `[brand]` `[class]` `[category]` `[type]` `[inst
 ### op-v-changeveh
 This can be used to change any vehicle present inside the database.
 
-:::info
+:::success
 op-v-changeveh `[column]` `[value]`
 :::
 * `column` - there are many columns available here is a list:
