@@ -73,8 +73,8 @@ NENTER          N4      N5       N6     N+      N-      N7      N8      N9<br />
 
 * `sMenuOption` - '3dmenu' for 3dtext or 'ox' for ox_lib ContextMenu system.
 * `sRestrictions`
-    * `jobsWhitelisted` - table, make empty to disable **[job] = grade** (`{['police'] = 4}`).
-    * `jobsBlacklisted` = table, make empty to disable **[job] = grade** (`{['ambulance'] = 4}`).
+    * `jobsWhitelisted` - boolean/table, make false to disable **[job] = grade** (`{['police'] = 4}`).
+    * `jobsBlacklisted` - boolean/table, make false to disable **[job] = grade** (`{['ambulance'] = 4}`).
     * :::danger
     `canInteract` !!! SCRIPT FUNCTIONALITY KEEP `false`.
     :::
