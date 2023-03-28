@@ -12,11 +12,21 @@ toc_min_heading_level: 2
 *    `markerDistance` = 4.0,
 *    `setupMarkerDistance` = 15.0,
 
-Please read the documentation on what keys can be used, not all keyboard keys are usable in FiveM.
--- https://opponoppo.github.io/docs
 ### _KeyBinds
 :::caution
 Not all keybinds can be used, here is a list of usable keybindings:
+<pre>
+ESC     F1      F2      F3              F5      F6      F7      F8      F9      F10 <br />
+~       1       2       3        4      5       6       7       8       9       -       =       BACKSPACE <br />
+TAB     Q       W       E        R      T       Y       U       P       [       ]       ENTER <br />
+CAPS    A       S       D        F      G       H       K       L<br />
+LEFTSHIFT       Z       X        C      V       B       N       M       ,       .       TOP<br />
+LEFTCTRL        LEFTALT                 SPACE                   RIGHTCTRL       LEFT    DOWN    RIGHT<br />
+<br />
+HOME            PAGEUP  PAGEDOWN DELETE<br />
+NENTER          N4      N5       N6     N+      N-      N7      N8      N9<br />
+</pre>
+
 :::
 
 * `['goBack']` - Used in only `3dmenu`.
