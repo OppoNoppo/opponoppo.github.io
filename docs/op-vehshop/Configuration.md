@@ -6,11 +6,11 @@ toc_min_heading_level: 2
 ---
 
 ### _Settings
-*    `debug` = false, -- Set to true if you encounter any errors.
-*    `framework` = 'qbcore', -- esx, qbcore
-*    `currency` = '€',
-*    `markerDistance` = 4.0,
-*    `setupMarkerDistance` = 15.0,
+*    `debug` - boolean.
+*    `framework` - Supported frameworks: 'qbcore', 'esx'.
+*    `currency` - string.
+*    `markerDistance` - integer.
+*    `setupMarkerDistance` - integer.
 
 ### _KeyBinds
 :::caution
