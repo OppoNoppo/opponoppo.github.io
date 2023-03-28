@@ -10,5 +10,6 @@ It should have an code between the brackets.
 For the correct documentation try to find an keyword inside the error.
 
 ### Duplicate Entry
->Duplicate entry happens when the given object already exists inside the database. Within *op-vehshop* this will mostly happen when adding an car.
-If there are any changes you want to make to said car, you can use the command *op-v-changeveh [vehname] [column] [value]*.
+>Duplicate entry happens when the given object already exists inside the database. Within **op-vehshop** this will mostly happen when adding an car.
+If there are any changes you want to make to said car, you can use the command **op-v-changeveh [vehname] [column] [value]**.
+
