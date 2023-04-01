@@ -79,6 +79,7 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['lua'],
       },
+      metadata: [{name: 'keywords', content: 'opponoppo, op-vehshop, op'}],
     }),
 };
 
