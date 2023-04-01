@@ -44,10 +44,19 @@ NENTER          N4      N5       N6     N+      N-      N7      N8      N9<br />
 
 #### points
 * `[showroomName]` - Make them unique to avoid problems.
-    * `coords` = vector4,
-    * `interaction` = vector3,
+    * `coords` - vector4,
+    * `interaction` - vector3,
+    * `targetZone` - table
+        * `minZ` - int,
+        * `maxZ` - int,
+        * `coords` - vector3,
+        * `heading`,
+        * `size` - vec2(length, width),
+        * `distance` - int,
+        * `debug` - boolean
     * `enabledFeatures` - table.
     * `categories` - table, add the **categories** you want to show here. `{['compact'] = true}`.
+    * `classes` - boolean/table, same as `categories`, but with classes. (false to disable)
     * `defaultVehicle` - string (spawnName)
     * :::danger
     `chosenVehicle` - string (spawnName) !!! SCRIPT FUNCTIONALITY KEEP THIS THE SAME AS `defaultVehicle`.
@@ -71,7 +80,7 @@ NENTER          N4      N5       N6     N+      N-      N7      N8      N9<br />
 
 > ### lSettings
 
-* `sMenuOption` - '3dmenu' for 3dtext or 'ox' for ox_lib ContextMenu system.
+* `sMenuOption` - '3dmenu' for 3dtext, 'ox' for ox_lib ContextMenu or 'target' for **ox_target** system.
 * `sRestrictions`
     * `jobsWhitelisted` - boolean/table, make false to disable **[job] = grade** (`{['police'] = 4}`).
     * `jobsBlacklisted` - boolean/table, make false to disable **[job] = grade** (`{['ambulance'] = 4}`).
