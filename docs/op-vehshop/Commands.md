@@ -1,7 +1,7 @@
 ---
 title: Commands
 toc_min_heading_level: 2
-position: 1
+sidebar_position: 3
 ---
 
 ### op-v-addcar
@@ -41,16 +41,8 @@ op-v-changeveh `[column]` `[value]`
 
 `instore` - boolean.
 
+`defaultmods` - Does not need a value, only need to sit inside the vehicle.
+
 :::
 
-:::danger
-`defaultmods` is not yet an available option.
-:::
-
-
-
-* `value` - Depending on the column the value may vary:
-
-:::danger
-`label` does not yet support spaces between words yet!
-:::
+* `value` - Depending on the column the value may vary
