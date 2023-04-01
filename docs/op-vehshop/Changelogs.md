@@ -4,6 +4,27 @@ sidebar_position: 4
 toc_min_heading_level: 2
 ---
 
+### v3.0.3
+`+` Class filtering for showroompoints.<br/>
+`/` Improved SQL performance.<br/>
+`/` Fixed oxMenu id issue.<br/>
+
+#### Config Change:
+
+With the addition of class filtering, an extra is available for each showroompoint.
+No new lines **NEED** to be added, only when wanting to use class filtering.
+
+You can now filter a showroompoint with 2 filtersystems, using 1 of two or even both! To use this feature please add `classes = {['classname'] = true},` beneath categories in the showroompoint you want to filter. It basicly works the same as categories. These 2 options can be used together to enhance your filtering. Have fun!
+
+#### Files Changed:
+
+`client/3dmenu.lua`<br />
+`client/main.lua`<br />
+`client/ox.lua`<br />
+`client/target.lua`<br />
+`server/main.lua`<br />
+`config.lua`<br />
+
 ### v3.0.2
 `+` Added Target system.<br />
 `+` Added defaultmods as option in `/op-v-changeveh`.<br />
