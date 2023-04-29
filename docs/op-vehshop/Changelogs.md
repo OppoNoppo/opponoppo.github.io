@@ -4,6 +4,30 @@ sidebar_position: 4
 toc_min_heading_level: 2
 ---
 
+### v3.0.4
+`+` Readded SQL improvements<br/>
+`/` Fixed bug which affects slow running users/servers.<br/>
+`/` Fixed prefix issue.<br/>
+
+#### Config Change:
+One change made, which only affects non changed configs.
+:::info
+**Old**<br/>
+`vehicleType = 'motorcyle`<br/>
+
+**New**<br/>
+`vehicleType = 'motorcycle`<br/>
+:::
+#### Files Changed:
+
+`client/3dmenu.lua`<br/>
+`client/editable.lua`<br/>
+`client/main.lua`<br/>
+`client/ox.lua`<br/>
+`client/target.lua`<br/>
+`server/main.lua`<br/>
+`config.lua`<br/>
+
 ### v3.0.3
 `+` Class filtering for showroompoints.<br/>
 `/` Improved SQL performance.<br/>
